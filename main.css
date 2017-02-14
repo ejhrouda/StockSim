@@ -1,0 +1,72 @@
+html, body {
+    font-family: "Comic Sans MS";
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#info {
+	text-align: center;
+}
+
+#signIn {
+	text-align: center;
+}
+
+#tickerText {
+	text-align: center;
+}
+
+#signInButton {
+	background-color: green;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 15px 35px;
+    font-size: 16px;
+}
+
+#tickerSubmit {
+	background-color: green;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 16px;
+}
+
+table, th, td {
+    border: 5px solid green;
+    border-collapse: collapse;
+    font-size: 14px;
+}
