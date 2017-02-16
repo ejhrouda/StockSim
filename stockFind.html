@@ -4,6 +4,7 @@
     <link rel=stylesheet type="text/css" href="main.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 	<script src="getStock.js"></script>
+    <script src="dropDown.js"></script>
 </head>
 <body>
     <div class="nav">
@@ -18,8 +19,9 @@
     <div id="tickerText">
         <br>
         <div id="stockTickGet">
-            Ticker: <input type="text"  id="tickBox" />
+            Ticker: <input type="text"  id="tickBox" list="options"/>
             <button onclick="StockPriceTicker()" id="tickerSubmit">Submit</button>
+            <datalist id="options"></datalist>
         </div>
         <div id='showStockTick' class='stockTicker'>
         </div>
